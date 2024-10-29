@@ -1,0 +1,20 @@
+{
+  "name": "react-native-config-info",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Rémy Abitbol",
+    "url": "https://rems.dev"
+  },
+  "description": "Read values from Info.plist (iOS) or from resources strings.xml (Android)",
+  "homepage": "https://github.com/remscodes/react-native-config-info",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "react-native": "^0.74.0"
+  },
+  "devDependencies": {
+    "@react-native/typescript-config": "0.74.85"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
