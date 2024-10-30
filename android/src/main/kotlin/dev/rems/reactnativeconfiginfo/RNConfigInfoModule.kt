@@ -37,5 +37,5 @@ class RNConfigInfoModule(reactContext: ReactApplicationContext) : ReactContextBa
         }
     }
 
-    private fun readValueOrThrow(key: String): String = readValue(key) ?: throw RNConfigInfoException("$key' value is missing from resources.");
+    private fun readValueOrThrow(key: String): String = readValue(key) ?: throw RNConfigInfoException("$key' value is missing from resources.")
 }
