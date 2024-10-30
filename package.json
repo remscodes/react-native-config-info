@@ -1,6 +1,6 @@
 {
   "name": "react-native-config-info",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Read configuration values from Info.plist (iOS) or from resources strings.xml (Android)",
   "license": "MIT",
   "author": {
