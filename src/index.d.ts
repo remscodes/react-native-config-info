@@ -4,28 +4,30 @@ const { RNConfigInfo } = NativeModules;
 
 interface ConfigInfo {
   /**
-   * Asynchronously returns value associated to the provided ke from Info.plist (iOS) or from resources (Android).
+   * Asynchronously returns the value associated to the provided key from Info.plist (iOS) or from resources strings.xml (Android).
    * @param key - The config key.
+   * @returns `null` if empty or missing
    */
   get<T extends string = string>(key: string): Promise<T | null>;
 
   /**
-   * Asynchronously returns value associated to the provided key from Info.plist (iOS) or from resources (Android).
+   * Asynchronously returns the value associated to the provided key from Info.plist (iOS) or from resources strings.xml (Android).
    * @param key - The config key.
-   * @throws - if value is `null`.
+   * @throws - if value is empty.
    */
   getOrThrow<T extends string = string>(key: string): Promise<T>;
 
   /**
-   * Synchronously returns value from Info.plist (iOS) or from resources (Android) associated to the provided key.
+   * Synchronously returns the value associated to the provided key from Info.plist (iOS) or from resources strings.xml (Android).
    * @param key - The config key.
+   * @returns `null` if empty or missing
    */
   getSync<T extends string = string>(key: string): T | null;
 
   /**
-   * Synchronously returns value from Info.plist (iOS) or from resources (Android) associated to the provided key.
+   * Synchronously returns the value associated to the provided key from Info.plist (iOS) or from resources strings.xml (Android).
    * @param key - The config key.
-   * @throws - if value is `null`.
+   * @throws - if value is empty.
    */
   getSyncOrThrow<T extends string = string>(key: string): T;
 
