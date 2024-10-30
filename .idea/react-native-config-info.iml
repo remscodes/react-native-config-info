@@ -5,6 +5,10 @@
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/android/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/android/build" />
+      <excludeFolder url="file://$MODULE_DIR$/android/gradle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -8,23 +8,18 @@
 
 RCT_EXPORT_MODULE(RNConfigInfo);
 
-RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getSync: (NSString*) key) {
-  return [[NSBundle mainBundle] objectForInfoDictionaryKey:key];
-}
-
 RCT_EXPORT_METHOD(get: (NSString*) key
                   resolver: (RCTPromiseResolveBlock) resolve
                   rejecter: (RCTPromiseRejectBlock) reject) {
-  NSString *value = [[NSBundle mainBundle] objectForInfoDictionaryKey:key];
+    resolve([self readValue:key]);
+}
 
-  if (value) {
-    resolve(value);
-  }
-  else {
-    reject(@"config_info_nil",
-          [NSString stringWithFormat:@"The key (%@) returned a nil value.", key],
-          nil);
-  }
+RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getSync: (NSString*) key) {
+    return [self readValue:key];
+}
+
+- (nullable NSString *) readValue: (NSString*) key {
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:key];
 }
 
 @end

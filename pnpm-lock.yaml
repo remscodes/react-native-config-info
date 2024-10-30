@@ -13,8 +13,8 @@ importers:
         version: 0.74.6(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(react@18.2.0)
     devDependencies:
       '@react-native/typescript-config':
-        specifier: 0.74.85
-        version: 0.74.85
+        specifier: ^0.76.1
+        version: 0.76.1
 
 packages:
 
@@ -859,8 +859,8 @@ packages:
   '@react-native/normalize-colors@0.74.88':
     resolution: {integrity: sha512-He5oTwPBxvXrxJ91dZzpxR7P+VYmc9IkJfhuH8zUiU50ckrt+xWNjtVugPdUv4LuVjmZ36Vk2EX8bl1gVn2dVA==}
 
-  '@react-native/typescript-config@0.74.85':
-    resolution: {integrity: sha512-FiMIWSRPCEW6yobrzAL2GR4a5PMyRpJEUsKkN7h5J2dpM/f33FLZdDon/ljIK2iPB4XOt6m1opUxep9ZqjToDg==}
+  '@react-native/typescript-config@0.76.1':
+    resolution: {integrity: sha512-KcmgsFG/c3WdAqy7/06Zvfkye3XIc/0zItlFMSGMgAjFFuCTomXqpmJdrtTBheCDy+gbKaR/vWf+snL8C+OVvA==}
 
   '@react-native/virtualized-lists@0.74.88':
     resolution: {integrity: sha512-nZn4X9zuyinRJoE/WcgB1e/X6b3J3QPRSsNC0LOjHzP97tvW6xvBacjbCAJAaZQwD9KaqZyK86eCi61ksr350g==}
@@ -3628,7 +3628,7 @@ snapshots:
 
   '@react-native/normalize-colors@0.74.88': {}
 
-  '@react-native/typescript-config@0.74.85': {}
+  '@react-native/typescript-config@0.76.1': {}
 
   '@react-native/virtualized-lists@0.74.88(react-native@0.74.6(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(react@18.2.0))(react@18.2.0)':
     dependencies:

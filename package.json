@@ -4,17 +4,23 @@
   "license": "MIT",
   "author": {
     "name": "Rémy Abitbol",
-    "url": "https://rems.dev"
+    "url": "https://github.com/remscodes"
   },
   "description": "Read values from Info.plist (iOS) or from resources strings.xml (Android)",
   "homepage": "https://github.com/remscodes/react-native-config-info",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "peerDependencies": {
-    "react-native": "^0.74.0"
+    "react-native": "^0.70.15"
   },
   "devDependencies": {
-    "@react-native/typescript-config": "0.74.85"
+    "@react-native/typescript-config": "^0.76.1"
   },
+  "keywords": [
+    "react-native",
+    "config",
+    "environment",
+    "values"
+  ],
   "packageManager": "pnpm@9.12.3"
 }
