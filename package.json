@@ -1,15 +1,27 @@
 {
   "name": "react-native-config-info",
   "version": "0.1.0",
+  "description": "Read configuration values from Info.plist (iOS) or from resources strings.xml (Android)",
   "license": "MIT",
   "author": {
     "name": "Rémy Abitbol",
     "url": "https://github.com/remscodes"
   },
-  "description": "Read values from Info.plist (iOS) or from resources strings.xml (Android)",
-  "homepage": "https://github.com/remscodes/react-native-config-info",
+  "scripts": {},
+  "type": "module",
   "main": "src/index.js",
   "types": "src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/remscodes/react-native-config-info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remscodes/react-native-config-info"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "peerDependencies": {
     "react-native": "^0.70.15"
   },
@@ -19,8 +31,9 @@
   "keywords": [
     "react-native",
     "config",
-    "environment",
-    "values"
+    "info",
+    "ios",
+    "android"
   ],
   "packageManager": "pnpm@9.12.3"
 }
