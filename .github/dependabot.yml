@@ -10,6 +10,6 @@ updates:
   # Maintain dependencies for Android Gradle
   - package-ecosystem: "gradle"
     directory: "/android"
+    versioning-strategy: widen
     schedule:
       interval: "daily"
-    versioning-strategy: increase
