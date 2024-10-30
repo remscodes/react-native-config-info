@@ -23,7 +23,7 @@
     "node": ">=18"
   },
   "peerDependencies": {
-    "react-native": "^0.70.15"
+    "react-native": ">=0.70.15"
   },
   "devDependencies": {
     "@react-native/typescript-config": "^0.76.1"
